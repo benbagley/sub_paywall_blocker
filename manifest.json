@@ -1,0 +1,15 @@
+{
+  "name": "Subscription work-around",
+  "version": "0.9",
+  "description": "This extension gets around those annoying news subscriptions",
+  "permissions": ["webRequest", "webRequestBlocking", "*://*/*"],
+  "background": {
+    "scripts": ["workaround.js"]
+  },
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png",
+    "128": "icons/logo-128.png"
+  },
+  "manifest_version": 2
+}
